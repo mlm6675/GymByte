@@ -1,0 +1,69 @@
+.teal {
+    background-color: rgb(99, 192, 178);
+    height: 100px;
+}
+
+.gray {
+    background-color: rgb(67, 78, 82);
+    height: 100px;
+}
+
+.brown {
+    background-color: rgb(190, 182, 102);
+    height:100px;
+}
+
+.yellow {
+    background-color: rgb(238, 206, 108);
+    height: 100px;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: white;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: rgb(99, 192, 178);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    transition: background-color .15s;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: rgb(84, 159, 148);
+    color: white;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: rgb(99, 192, 178);
+    color: white;
+}
+
+.topnav a.login {
+    float: left;
+}
+
+.logo {
+    height: 48px;
+    background-color: white;
+    transition: background-color .15s;
+}
+
+#logo-link {
+    padding: 0 0 0 0;
+    margin: 0px 10px 5px 10px;
+    height: 48px;
+    background-color: white;
+    cursor: pointer;
+    transition: background-color .15s;
+}
