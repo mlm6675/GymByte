@@ -67,3 +67,8 @@
     cursor: pointer;
     transition: background-color .15s;
 }
+
+
+#body {
+    padding: 500px 300px 500px 800px;
+}

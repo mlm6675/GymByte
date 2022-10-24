@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!-- This is the guest page. It should allow users to select
+meet information and then view the scores for that meet. -->
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="testStyle.css">
+    <meta charset="UTF-8">
+    <title>GymByte Guest Page</title>
+</head>
+<body>
+<div class="topnav">
+    <a id="logo-link" href="adminhome.html" draggable="false" title="GymByte Home">
+        <img class="logo" src="GymByte.png" alt="GymByte logo" draggable="false">
+    </a>
+
+    <a href="#news" draggable="false">
+        Meets
+    </a>
+
+    <a href="#contact" draggable="false">
+        Contact
+    </a>
+
+    <a href="#about" draggable="false">
+        About
+    </a>
+
+    <a class="login" href="#login">
+        Login
+    </a>
+</div>
+
+<h1> Hello, Guest!</h1>
+<label for="meets">Choose a meet to view scores and other info:</label>
+<select name="meets" id="meets">
+    <option value="Moon Invitational">Moon Invitational</option>
+    <option value="Judges' Invitational">Judges' Invitational</option>
+    <option value="Central Valley vs Hopewell vs Southside">Central Valley vs Hopewell vs Southside</option>
+    <option value="WPIALs">WPIALs</option>
+</select>
+<br>
+<p1>No info yet. Check back later!</p1>
