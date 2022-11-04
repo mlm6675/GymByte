@@ -1,0 +1,160 @@
+body {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to bottom, white 80%, rgb(99, 192, 178)100%);
+    background-attachment: fixed;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.topnav {
+    background-color: white;
+    overflow: hidden;
+    vertical-align: top;
+    min-width: 500px;
+}
+
+.topnav a {
+    float: left;
+    color: rgb(99, 192, 178);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    transition: background-color .15s;
+}
+
+.topnav a:hover {
+    background-color: rgb(84, 159, 148);
+    color: white;
+}
+
+.logo {
+    height: 48px;
+    background-color: white;
+    transition: background-color .15s;
+    vertical-align: top;
+}
+
+#logo-link {
+    padding: 0 0 0 0;
+    margin: 0px 10px 5px 10px;
+    height: 48px;
+    background-color: white;
+    cursor: pointer;
+    transition: background-color .15s;
+}
+
+
+#body {
+    padding: 500px 300px 500px 800px;
+}
+
+.admin-body {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    font-size: 25px;
+    position: relative;
+    height: 300px;
+}
+
+.admin-body-p {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    padding: 5% 5% 5% 5%;
+    background: white;
+}
+
+.login-body {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    height: 300px;
+}
+
+.login-body-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    padding: 5% 5% 5% 5%;
+    background: white;
+}
+
+.text-box {
+    border-color: rgb(84, 159, 148);
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    height:20px;
+    padding-left: 10px;
+}
+
+.login-button {
+    border: none;
+    border-radius: 10px;
+    background: rgb(84, 159, 148);
+    color: white;
+    font-size: 18px;
+    padding: 5px 10px 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.login-button:hover {
+    background: rgb(74, 149, 138);
+}
+
+.headshot {
+    border: none;
+    border-radius: 300px;
+    height: 200px;
+    box-shadow: 0px 0px 5px rgb(0, 109, 128);
+}
+
+.bio-part {
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    margin: 0px 10px 0px 10px;
+    border: none;
+    border-radius: 10px;
+    padding: 20px 20px 20px 20px;
+    box-shadow: 0px 3px 3px gray;
+    background-color: rgb(84, 159, 148);
+    color: white;
+    font-size: 20px;
+}
+
+.bio-whole {
+    width: 70%;
+    margin: auto;
+}
+
+.bio-body {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.bio-text {
+    width: 40%;
+    margin: 30px auto;
+    font-size: 16px;
+}
+
+.welcome {
+    margin: 30px auto;
+    width: 50%;
+    text-align: center;
+}
+
+.links {
+    width: 50%;
+}
+
+.bio-title {
+    font-size: 16px;
+    color: white;
+}
